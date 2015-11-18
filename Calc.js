@@ -16,6 +16,9 @@ app.controller('CalcController', ['$scope', '$window', function ($scope, $window
 			}else{
 			$scope.result = $scope.input1 + $scope.input2;
 			};
+		$scope.para = "The result of adding " + $scope.input1 + " and " + $scope.input2 + " is " + $scope.result;
+		$scope.input1 = 0;
+		$scope.input2 = 0;
 		}
 		
 		$scope.subtractNum = function(){
@@ -25,6 +28,9 @@ app.controller('CalcController', ['$scope', '$window', function ($scope, $window
 			}else{
 			$scope.result = $scope.input1 - $scope.input2;
 			};
+		$scope.para = "The result of subtracting " + $scope.input1 + " and " + $scope.input2 + " is " + $scope.result;
+		$scope.input1 = 0;
+		$scope.input2 = 0;
 		}	
 	
 		$scope.multiplyNum = function(){
@@ -34,6 +40,9 @@ app.controller('CalcController', ['$scope', '$window', function ($scope, $window
 			}else{
 			$scope.result = $scope.input1 * $scope.input2;
 			};
+		$scope.para = "The result of multiplying " + $scope.input1 + " and " + $scope.input2 + " is " + $scope.result;
+		$scope.input1 = 0;
+		$scope.input2 = 0;
 		}
 		
 		$scope.divideNum = function(){
@@ -46,6 +55,11 @@ app.controller('CalcController', ['$scope', '$window', function ($scope, $window
 			}else{
 			$scope.result = $scope.input1 / $scope.input2;
 			};
+		$scope.para = "The result of dividing " + $scope.input1 + " and " + $scope.input2 + " is " + $scope.result;
+		$scope.input1 = 0;
+		$scope.input2 = 0;
 		}
+		
+
 }]);
 })();
