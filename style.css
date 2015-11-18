@@ -18,6 +18,11 @@ body{
 .input-box{
 	width: 50%;
 	height: 4%;
+	transition: all .6s ease-and-out;
+}
+
+.input-box:hover{
+	border: 0.1em solid #572b00
 }
 
 button{
@@ -25,6 +30,13 @@ button{
 	height: 5%;
 	margin-right: 1%;
 	border-radius: 0.5em;
+	transition: all .6s ease-and-out;
+}
+
+button:hover{
+	transform: scale(1.1);
+	border-top: 0.1em solid white;
+	border-left: 0.1em solid white;
 }
 
 .refresh{
@@ -41,9 +53,4 @@ h3{
 
 p{
 	font-size: 1.6vw;
-}
-
-a{
-	text-decoration: none;
-	color: yellow;
 }
