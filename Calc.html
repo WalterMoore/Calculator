@@ -20,10 +20,10 @@
 			</div>
 			<br>
 			<div class="keypad">
-				<button class="add" ng-click="addNum()">+</button>
-				<button class="subtract" ng-click="subtractNum()">-</button>
-				<button class="multiply" ng-click="multiplyNum()">*</button>
-				<button class="divide" ng-click="divideNum()">/</button>
+				<button class="add" ng-click="operation('+')">+</button>
+				<button class="subtract" ng-click="operation('-')">-</button>
+				<button class="multiply" ng-click="operation('*')">*</button>
+				<button class="divide" ng-click="operation('/')">/</button>
 			</div>
 			<div class="feedback">
 				<p>{{para}}</p>
