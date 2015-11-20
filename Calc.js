@@ -4,7 +4,7 @@ var app = angular.module('myApp',[]);
 	
 app.controller('CalcController', ['$scope', '$window', function ($scope, $window){
 	
-	$scope.title="The Calculator";
+	$scope.title="An Angular Calculator";
 	$scope.result=null;
 	$scope.input1=null;
 	$scope.input2=null;
